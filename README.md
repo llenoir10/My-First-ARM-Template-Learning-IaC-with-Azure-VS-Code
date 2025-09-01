@@ -6,7 +6,6 @@ I followed the [Microsoft Quickstart](https://learn.microsoft.com/en-us/azure/az
 What’s in This Repo
 - `azuredeploy.json` – Basic ARM template to deploy a storage account
 - `azuredeploy.parameters.json` – Parameters file with user-defined input
-- `screenshots/` – Visuals of template validation, snippet usage, and CLI output
 
 ## Highlights of my Learning
 - How to Use VS Code's ARM snippets to build templates quickly
