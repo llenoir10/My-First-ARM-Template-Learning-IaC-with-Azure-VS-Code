@@ -9,11 +9,29 @@ What’s in This Repo
 - `screenshots/` – Visuals of template validation, snippet usage, and CLI output
 
 ## Highlights of my Learning
-- How to Use VS Code's ARM snippets to build tempkates quickly
+- How to Use VS Code's ARM snippets to build templates quickly
 - Live Validation with Intellisense
-- Parameterization for reuseable deployments
+- Parameterization for reusable deployments
 - Deploying real resources with the Azure CLI
 
 ## Resources
 - [Microsoft Quickstart Guide](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-visual-studio-code?tabs=CLI)
 - [Azure Arm Template Docs](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+
+## Screenshots
+
+<br />
+Successful deployment of template:  <br/>
+<img src="https://i.imgur.com/x5RS6KD.jpeg" height="80%" width="80%" 
+<br />
+
+<br />
+Error: Invalid SKU <br/>
+<img src="https://i.imgur.com/oeF93te.jpeg" height="80%" width="80%" 
+
+Notice premium_LRS was entered alongside F1 as the selected tier. 
+<br />
+<br />
+Error: Must create unique storage name:  <br/>
+<img src="https://i.imgur.com/AM9NJia.jpeg" height="80%" width="80%" 
+<br />
